@@ -1,0 +1,64 @@
+body{
+    display: flex;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    background-color: lightgray;
+  }
+  .container {
+    background-color: white;
+    height: 65vh;
+    width: 20vw;
+    margin: 10vh auto;
+    border-radius: 4vh;
+  }
+  .container div {
+    display: inline-block;
+    background-color: white;
+  }
+  .img {
+    /* margin: 5vh; */
+    /* flex-shrink: 0; */
+    border-radius: 3vh;
+    margin: 1vw;
+    height: 10vh;
+  }
+  .img img {
+    width: 18vw;
+    border-radius: 3vh;
+  }
+  .tags div {
+    margin: 2vh;
+    /* background-color: lightblue; */
+    border-radius: 1vh;
+    border: 0.1px solid rgb(215, 212, 212);
+    font-size: 3vh;
+  }
+  .topic{
+    font-weight: bold;
+    font-size: 4vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 2vh 1vw;
+  }
+  div p{
+    background-color: white;
+    color: rgb(180, 173, 173);
+    margin-left: 1vw;
+    font-size: 3vh;
+  }
+  .ends{
+    
+    font-size: 2.5vh;
+    width: 9vw;
+    margin: 0vh 6vw;
+  }
+  .ends p{
+    background-color: rgb(168, 204, 216);
+    color: rgb(61, 61, 247);
+    margin: 2vh;
+    text-align: center;
+    font-size: 2.5vh;
+    border-radius: 1vh;
+    height: 3vh;
+  }

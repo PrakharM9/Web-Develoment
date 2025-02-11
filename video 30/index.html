@@ -4,39 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS Variables</title>
-    <style>
-        :root{
-            --color:rgb(155, 44, 172);
-            --seccolor:rgb(192, 102, 196);
-            --defpad:23px;
-            --defop:0.4;
-        }
-        *{
-            margin: 0;
-            padding: 0;
-        }
-        .nav{
-            /* background-color: rgb(54, 196, 61); */
-            background-color: var(--color,blue);
-        }
-        ul{
-            display: flex;
-        }
-        ul li{
-            list-style: none;
-            opacity:var(--defop);
-            padding: var(--defpad);
-            border: 7px solid var(--seccolor);
-        }
-        ul li:first-child{
-            --color:rgb(244, 98, 20);
-            background-color: var(--color);
-        }
-        .container{
-            /* background-color: rgb(159, 234, 162); */
-            background-color: var(--seccolor);
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="nav">

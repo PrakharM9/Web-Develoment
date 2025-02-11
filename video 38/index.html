@@ -4,53 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CSS flexbox</title>
-    <style>
-      * {
-        margin: 0;
-        padding: 0;
-      }
-      .container {
-        border: 2px solid red;
-        display: flex;
-        height: 80vh;
-        /* justify-content: center; */
-        /* align-items: center; */
-        align-content: center;
-
-        /* flex-direction: column; */
-        flex-wrap: wrap;
-        align-content: flex-start;
-        /* there is not justfiy-items in flexbox */
-        flex-flow: row row-reverse;
-        /* gap: 30px; */
-        /* row-gap: 40px;
-            column-gap: 10px; */
-        /* above two lines can also be written in one line */
-        gap: 40px 10px;
-      }
-      .item {
-        flex-grow: 1;
-        height: 62px;
-        width: 62px;
-        border: 2px solid black;
-        /* margin: 4px; */
-        background-color: blueviolet;
-      }
-      .order-2 {
-        order: 2;
-      }
-      .order-1 {
-        order: 100;
-      }
-      .order-3 {
-        order: 3;
-      }
-      .item1{
-        /* flex-grow: 2; */
-        /* flex-shrink: 2; */
-        align-self: flex-ebd;
-      }
-    </style>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <main>

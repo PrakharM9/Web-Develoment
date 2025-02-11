@@ -1,0 +1,39 @@
+/* .box:first-child{
+            background-color: red;
+        } */
+      /* .box::first-line{
+            color: yellow;
+        } */
+        .boxes * {
+            color: rgb(29, 29, 140);
+            /* border: 2px solid black; */
+          }
+          [data-color="primary"] {
+            margin-top: 45px;
+            /* background-color: red; */
+          }
+          /* .box:nth-child(even){
+                background-color: blue;
+            } */
+          .box:nth-last-child(2) {
+            /* background-color: red; */
+          }
+          .boxes::before{
+            content: "Prakhar is good!";
+            color: blue;
+          }
+          .boxes::after{
+            content: "Sigma Course is awesome";
+            color: red;
+          }
+          ::selection{
+            color: gainsboro;
+            background-color: black;
+          }
+          .box::first-letter{
+            color: peru;
+            font-size: 10vh;
+          }
+          input::placeholder{
+            color: grey;
+          }

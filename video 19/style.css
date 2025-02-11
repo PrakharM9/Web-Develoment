@@ -1,0 +1,19 @@
+h1{
+    /* color: darkred; */
+    color:#faaa ;
+}
+#id1{
+    color: red;
+}
+#id2{
+    color: #faaa;
+}
+#id3{
+    color: rgb(180, 205, 100);
+}
+#id4{
+    color: rgba(215, 125, 213, 0.9);
+}
+#id5{
+    color: hsl(240, 91%, 66%);
+}

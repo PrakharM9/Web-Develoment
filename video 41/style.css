@@ -1,0 +1,55 @@
+nav ul{
+    list-style: none;
+    display:flex;
+    align-items: center;
+}
+nav ul li{
+    font-size: 1vw;
+    /* font-weight: 600; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* margin:0vh 3vw; */
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+}
+.l1 img{
+    width: 5vw;
+}
+.l8 img{
+    width: 2vw;
+}
+.l9 img{
+    width: 3vw;
+    margin-right: 2vw;
+}
+.l1{
+    margin-left: 8vw;
+}
+.l2{
+    font-weight: 720;
+    font-size: 2vw;
+}
+.l3{
+    margin-left: 20vw;
+    margin-right: 3vw;
+}
+.l4 {
+    margin-right: 3vw;
+}
+.l5{
+    margin-right: 3vw;
+}
+.l6{
+    margin-right: 3vw;
+}
+.l7{
+    margin-right: 3vh;
+}
+.l8{
+    margin-right: 1.5vw;
+}
+nav ul li{
+    align-items: center;
+    display: flex;
+}

@@ -1,0 +1,14 @@
+.box{
+    border :2px solid black;
+    padding: 34px;
+    box-shadow: 5px 5px 15px 5px burlywood;
+    /* box-shadow:h-offset v-offset blur speed color inset; */
+}
+.text-element{
+    text-shadow: 2px 2px 5px grey;
+    outline: 2px solid black;
+    border: 2px solid green;
+    border-radius: 15px;
+    outline-offset: 19px;
+    /* outline doesn't take space and it is not apart of box model */
+}
