@@ -1,0 +1,6 @@
+key factors for SEO
+1)CLS(Cumulative Layout Shift): Amount of shifting done when page is loaded
+2)LCP(Largest Contextual paint): here we see the time taken in loading largest element of the page.
+Good LCP Score is 2.5 seconds.
+3)FID(First Input Delay):Time taken to process any input like clicking a button. 
+Good FID Score is 100 milliseconds

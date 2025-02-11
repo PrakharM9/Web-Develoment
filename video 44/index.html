@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="shortcut icon" href="image 2.png" type="image/x-icon" />
+    <style>
+      nav ul {
+        list-style: none;
+        display: flex;
+        align-items: center;
+      }
+      nav ul li {
+        font-size: 1vw;
+        /* font-weight: 600; */
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        /* margin:0vh 3vw; */
+      }
+      nav ul li a {
+        color: black;
+        text-decoration: none;
+      }
+      .l1 img {
+        width: 5vw;
+      }
+      .l8 img {
+        width: 2vw;
+      }
+      .l9 img {
+        width: 3vw;
+        margin-right: 2vw;
+      }
+      .l1 {
+        margin-left: 8vw;
+      }
+      .l2 {
+        font-weight: 720;
+        font-size: 2vw;
+      }
+      .l3 {
+        margin-left: 20vw;
+        margin-right: 3vw;
+      }
+      .l4 {
+        margin-right: 3vw;
+      }
+      .l5 {
+        margin-right: 3vw;
+      }
+      .l6 {
+        margin-right: 3vw;
+      }
+      .l7 {
+        margin-right: 3vh;
+      }
+      .l8 {
+        margin-right: 1.5vw;
+      }
+      nav ul li {
+        align-items: center;
+        display: flex;
+      }
+      .text {
+        font-size: 40px;
+        padding: 5vh 15vw;
+        text-align: center;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+      .text span {
+        font-weight: 700;
+      }
+      .info {
+        padding: 5vh 20vw;
+        font-size: 23px;
+        text-align: center;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+      .button {
+        text-align: center;
+      }
+      .button button {
+        background-color: #00b6d1;
+        padding: 10px;
+        border-radius: 6px;
+        color: white;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 700;
+        border: none;
+      }
+      .info2 {
+        align-content: center;
+        margin: 0vh 20vw;
+        margin-bottom: 5vh;
+      }
+      .info2 img {
+        height: 60px;
+        margin: 0vh 2vw;
+      }
+      .button {
+        margin-bottom: 10vh;
+      }
+      .button button:hover {
+        cursor: pointer;
+      }
+      #yo1 {
+        font-size: 25px;
+      }
+      .data {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-items: center;
+        justify-content: center;
+        gap: 5vh 2vw;
+        padding: 0vh 20vw;
+      }
+      .datain {
+        background-color: #f9f9f9;
+        height: 250px;
+        width: 300px;
+        text-align: center;
+        display: inline-block;
+      }
+      .datain button {
+        background-color: rgb(35, 202, 35);
+        padding: 10px;
+        border-radius: 5px;
+      }
+      .datain button a {
+        text-decoration: none;
+        color: white;
+        font-weight: 600;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+      .lang {
+        font-weight: 700;
+        font-size: 20px;
+      }
+      .datain p:nth-child(5) {
+        font-size: 7px;
+        text-align: center;
+      }
+      .eng p:nth-child(1) {
+        margin-bottom: 50px;
+      }
+      .eng p:nth-child(4) {
+        font-size: 7px;
+        text-align: center;
+      }
+      .foot {
+        background-color: black;
+        color: white;
+      }
+      #first {
+        text-align: center;
+        font-size: 25px;
+        padding-: 70px 0px;
+        font-weight: 600;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+      #second {
+        padding: 0 5vw;
+        text-align: center;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+      .foot {
+        align-content: center;
+      }
+      .former {
+        align-content: center;
+        display: flex;
+        justify-content: center;
+      }
+      .former div{
+        background-color: white;
+        color: rgb(0, 182, 209);
+        padding: 0 auto;
+        width: 40vw;
+        text-align: center;
+        align-content: center;
+        border-radius: 1vw;
+
+      }
+      .former div p:nth-child(1){
+        font-size: 20px;
+      }
+      .former div p:nth-child(2){
+        color: black;
+      }
+      .former div button{
+        background-color: rgb(0, 182, 209);
+        text-align: center;
+        color: white;
+        width: 250px;
+        height: 50px;
+        border: none;
+        font-weight:700;
+        font-size: 15px;
+        border-radius: 5px;
+      }
+      .former div textarea{
+        width: 245px;
+      }
+      @media screen and (max-width: 945px) {
+        .data {
+          grid-template-columns: 1fr 1fr;
+          justify-content: center;
+        }
+        .info {
+          padding: 5vh 8vw;
+        }
+        .info2 {
+          margin: 5vh 5vw;
+        }
+      }
+      @media screen and (max-width: 550px) {
+        .data {
+          grid-template-columns: 1fr;
+        }
+        .text {
+          padding: 2vh 5vw;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li class="l1">
+          <a href=""><img src="image 2.png" alt="" /></a>
+        </li>
+        <li class="l2"><a href=""></a>UltraEdit</li>
+        <li class="l3">
+          <a href=""
+            ><span>Products</span
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              width="16"
+              height="12"
+              color="#000000"
+              fill="none"
+            >
+              <path
+                d="M18 9.00005C18 9.00005 13.5811 15 12 15C10.4188 15 6 9 6 9"
+                stroke="currentColor"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              /></svg
+          ></a>
+        </li>
+        <li class="l4">
+          <a href=""
+            ><span>For business</span
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              width="16"
+              height="12"
+              color="#000000"
+              fill="none"
+            >
+              <path
+                d="M18 9.00005C18 9.00005 13.5811 15 12 15C10.4188 15 6 9 6 9"
+                stroke="currentColor"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              /></svg
+          ></a>
+        </li>
+        <li class="l5">
+          <a href=""
+            ><span>Resources</span
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              width="16"
+              height="12"
+              color="#000000"
+              fill="none"
+            >
+              <path
+                d="M18 9.00005C18 9.00005 13.5811 15 12 15C10.4188 15 6 9 6 9"
+                stroke="currentColor"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              /></svg
+          ></a>
+        </li>
+        <li class="l6">
+          <a href=""
+            ><span>Support</span
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              width="16"
+              height="12"
+              color="#000000"
+              fill="none"
+            >
+              <path
+                d="M18 9.00005C18 9.00005 13.5811 15 12 15C10.4188 15 6 9 6 9"
+                stroke="currentColor"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              /></svg
+          ></a>
+        </li>
+        <li class="l7">
+          <a href=""
+            ><span>Our company</span
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              width="16"
+              height="12"
+              color="#000000"
+              fill="none"
+            >
+              <path
+                d="M18 9.00005C18 9.00005 13.5811 15 12 15C10.4188 15 6 9 6 9"
+                stroke="currentColor"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              /></svg
+          ></a>
+        </li>
+        <li class="l9">
+          <a href=""><img src="istockphoto-831648336-612x612.jpg" alt="" /></a>
+        </li>
+        <li class="l8">
+          <a href=""><img src="Screenshot 2025-02-08 150413.png" alt="" /></a>
+        </li>
+      </ul>
+    </nav>
+    <div class="text">
+      Download <span>UltraEdit</span> for Windows
+      <a href="#"><img src="Reviews.png" alt="" /></a>
+    </div>
+    <div class="info">
+      Download and try UltraEdit before you buy it! This download includes the
+      full Windows version of the text editor.
+    </div>
+    <div class="button">
+      <button type="button">DOWNLOAD MAC OR LINUX VERSION</button>
+    </div>
+    <div class="info2">
+      <img src="image 2.png" alt="Ultra Edit logo" />
+      <span id="yo1">Download UltraEdit </span
+      ><span id="yo2">v2024.2 (released 2025-01-15) | Hotflix information</span>
+    </div>
+    <div class="data">
+      <div class="datain eng">
+        <p class="lang">English</p>
+        <button><a href="https://downloads.ultraedit.com/main/ue/win/ue_english_64.exe?_gl=1*z2pwjj*_gcl_au*NjE5MTI2MzczLjE3MzkwMDcwMjc.*_ga*NTAyOTM2Nzc3LjE3MzkwMDcwMjc.*_ga_QNXHVTPWNS*MTczOTE3NTA4My45LjAuMTczOTE3NTA4My42MC4wLjA.">Download 64-bit</a></button>
+        <p>SHA256</p>
+        <p class="code">
+          B06BC2BB50623A7B1A1C0C2D1C7A6BB5346515A9F5FF2CDE19A60EEE36DC702E
+        </p>
+      </div>
+      <div class="datain">
+        <p class="lang">Deutsch</p>
+        <p>German</p>
+        <button><a href="https://downloads.ultraedit.com/main/ue/win/ue_english_64.exe?_gl=1*z2pwjj*_gcl_au*NjE5MTI2MzczLjE3MzkwMDcwMjc.*_ga*NTAyOTM2Nzc3LjE3MzkwMDcwMjc.*_ga_QNXHVTPWNS*MTczOTE3NTA4My45LjAuMTczOTE3NTA4My42MC4wLjA.">Download 64-bit</a></button>
+        <p>SHA256</p>
+        <p class="code">
+          405DAF5ABB800762668B965CDA04DC504B5E12BB8167C205D31B7BD1799F54A5
+        </p>
+      </div>
+      <div class="datain">
+        <p class="lang">Italiano</p>
+        <p>Italian</p>
+        <button><a href="https://downloads.ultraedit.com/main/ue/win/ue_english_64.exe?_gl=1*z2pwjj*_gcl_au*NjE5MTI2MzczLjE3MzkwMDcwMjc.*_ga*NTAyOTM2Nzc3LjE3MzkwMDcwMjc.*_ga_QNXHVTPWNS*MTczOTE3NTA4My45LjAuMTczOTE3NTA4My42MC4wLjA.">Download 64-bit</a></button>
+        <p>SHA256</p>
+        <p class="code">
+          F6AE0F552982CF949261AB86FFEBD4F44CBC467F8F0692E7B360CCD78392C04A
+        </p>
+      </div>
+      <div class="datain">
+        <p class="lang">Español</p>
+        <p>Spanish</p>
+        <button><a href="https://downloads.ultraedit.com/main/ue/win/ue_english_64.exe?_gl=1*z2pwjj*_gcl_au*NjE5MTI2MzczLjE3MzkwMDcwMjc.*_ga*NTAyOTM2Nzc3LjE3MzkwMDcwMjc.*_ga_QNXHVTPWNS*MTczOTE3NTA4My45LjAuMTczOTE3NTA4My42MC4wLjA.">Download 64-bit</a></button>
+        <p>SHA256</p>
+        <p class="code">
+          0B59B29571D36A107A4A13CD52C046D9D66C1328C367EDFC5506D914A173C2D4
+        </p>
+      </div>
+      <div class="datain">
+        <p class="lang">français</p>
+        <p>French</p>
+        <button><a href="https://downloads.ultraedit.com/main/ue/win/ue_english_64.exe?_gl=1*z2pwjj*_gcl_au*NjE5MTI2MzczLjE3MzkwMDcwMjc.*_ga*NTAyOTM2Nzc3LjE3MzkwMDcwMjc.*_ga_QNXHVTPWNS*MTczOTE3NTA4My45LjAuMTczOTE3NTA4My42MC4wLjA.">Download 64-bit</a></button>
+        <p>SHA256</p>
+        <p class="code">
+          4DDF3FE5C0F07709B39AC78D5A2E12851F4B01A8BE271359964D4197E8586662
+        </p>
+      </div>
+      <div class="datain">
+        <p class="lang">Português brasileiro</p>
+        <p>Brazillian Portuguese</p>
+        <button><a href="https://downloads.ultraedit.com/main/ue/win/ue_english_64.exe?_gl=1*z2pwjj*_gcl_au*NjE5MTI2MzczLjE3MzkwMDcwMjc.*_ga*NTAyOTM2Nzc3LjE3MzkwMDcwMjc.*_ga_QNXHVTPWNS*MTczOTE3NTA4My45LjAuMTczOTE3NTA4My42MC4wLjA.">Download 64-bit</a></button>
+        <p>SHA256</p>
+        <p class="code">
+          BA78B33518547FA143AEC9B552861BC50B8776C2FCEE0F4CDDD8CCD57C1221B1
+        </p>
+      </div>
+      <div class="datain">
+        <p class="lang">日本</p>
+        <p>Japanese</p>
+        <button><a href="https://downloads.ultraedit.com/main/ue/win/ue_english_64.exe?_gl=1*z2pwjj*_gcl_au*NjE5MTI2MzczLjE3MzkwMDcwMjc.*_ga*NTAyOTM2Nzc3LjE3MzkwMDcwMjc.*_ga_QNXHVTPWNS*MTczOTE3NTA4My45LjAuMTczOTE3NTA4My42MC4wLjA.">Download 64-bit</a></button>
+        <p>SHA256</p>
+        <p class="code">
+          27D827353C2FB5B7157D209A79DC0B8D9C0367B2200859CB8C75DCA39F606C3B
+        </p>
+      </div>
+      <div class="datain">
+        <p class="lang">한국어</p>
+        <p>Korean</p>
+        <button><a href="https://downloads.ultraedit.com/main/ue/win/ue_english_64.exe?_gl=1*z2pwjj*_gcl_au*NjE5MTI2MzczLjE3MzkwMDcwMjc.*_ga*NTAyOTM2Nzc3LjE3MzkwMDcwMjc.*_ga_QNXHVTPWNS*MTczOTE3NTA4My45LjAuMTczOTE3NTA4My42MC4wLjA.">Download 64-bit</a></button>
+        <p>SHA256</p>
+        <p class="code">
+          959F1821E36F83A0F3BBC2C474DC5097277DD97FB145E636DC8018C8BDDCD6AA
+        </p>
+      </div>
+      <div class="datain">
+        <p class="lang">华语</p>
+        <p>Chinese</p>
+        <button><a href="https://downloads.ultraedit.com/main/ue/win/ue_english_64.exe?_gl=1*z2pwjj*_gcl_au*NjE5MTI2MzczLjE3MzkwMDcwMjc.*_ga*NTAyOTM2Nzc3LjE3MzkwMDcwMjc.*_ga_QNXHVTPWNS*MTczOTE3NTA4My45LjAuMTczOTE3NTA4My42MC4wLjA.">Download 64-bit</a></button>
+        <p>SHA256</p>
+        <p class="code">
+          1E9C3C10FCE6B91FC27E35F1F989B611F619815C51EAF59D4D9F584C04E8B87C
+        </p>
+      </div>
+      <div class="datain">
+        <p class="lang">華語</p>
+        <p>Traditional Chinese</p>
+        <button><a href="https://downloads.ultraedit.com/main/ue/win/ue_english_64.exe?_gl=1*z2pwjj*_gcl_au*NjE5MTI2MzczLjE3MzkwMDcwMjc.*_ga*NTAyOTM2Nzc3LjE3MzkwMDcwMjc.*_ga_QNXHVTPWNS*MTczOTE3NTA4My45LjAuMTczOTE3NTA4My42MC4wLjA.">Download 64-bit</a></button>
+        <p>SHA256</p>
+        <p class="code">
+          6ABF82400B210F1ED7E10EAB28A2BADD682BC7A4F6D0140CE4B00C0696CB3C8D
+        </p>
+      </div>
+    </div>
+    <footer>
+      <div class="foot">
+        <p id="first">Join the UltraEdit newsletter</p>
+        <p id="second">
+          Sign up for our newsletter and receive emails for the latest news,
+          blogs, and special deals on UltraEdit
+        </p>
+        <div class="former">
+          <div>
+            <p>Susbscibe to our emails</p>
+            <p>Enter email address</p>
+            <textarea name="email" id="mail"></textarea>
+            <button type="button">SIGN UP</button>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
