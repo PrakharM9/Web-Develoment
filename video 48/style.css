@@ -12,9 +12,25 @@
     position:absolute;
     bottom: 0;
     left: 0;
-    animation: ballmove 5s ease-in-out 1s 2;
+    animation: animateX 2s linear infinite alternate,animateY 1s ease-out infinite alternate;
 }
-@keyframes ballmove {
+@keyframes animateX {
+    from{
+        left:0;
+    }
+    to{
+        left: 100%;
+    }
+}
+@keyframes animateY {
+    from{
+        bottom: 0;
+    }
+    to{
+        bottom: 100%;
+    }
+}
+/* @keyframes ballmove {
     
     10%{
         transform: translateX(20vw) translateY(-68vh);
@@ -31,4 +47,4 @@
     100%{
         transform: translateX(5vw) translateY(-20vh);
     }
-}
+} */
